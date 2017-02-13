@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">HotChat</string>
+
+
+    <!-- Toolbar-->
+    <string name="tm_item1">开启Wifi</string>
+    <string name="tm_item2">关闭Wifi</string>
+    <string name="tm_item3">关闭聊天室</string>
+    <string name="tm_item4">连接服务器</string>
+    <string name="tm_item5">查看当前连接的ip</string>
+
+    <string name="tm_item1_clicked">tem_item01_clicked</string>
+    <string name="tm_item2_clicked">tem_item02_clicked</string>
+    <string name="tm_item3_clicked">tem_item01_clicked</string>
+    <string name="tm_item4_clicked">tem_item02_clicked</string>
+
+
+    <!-- Drawer -->
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+
+    <!--Test-->
+    <string name="test">test</string>
+
+    <!-- wifi_list-->
+    <string name="connect">连接</string>
+    <string name="test_ssid">计科第一帅李亚鸣</string>
+
+    <!-- Floating Button-->
+    <string name="fab_item1">扫描聊天室</string>
+    <string name="fab_item2">新建多人聊天室</string>
+
+    <!-- dialog connect-->
+    <string name="dialog_connect_ssid">test</string>
+    <string name="dialog_connect_password_hint">密码</string>
+    <string name="dialog_connect_less_than8">密码位数应大于8位</string>
+
+    <!-- dialog create ap-->
+    <string name="dialog_create_ssid">聊天室名字</string>
+    <string name="dialog_create_type">类型</string>
+    <string name="dialog_create_less_than2">聊天室的名字应不小于2</string>
+    <string name="dialog_create_password">密码</string>
+    <string name="dialog_create_less_than8">密码位数应大于8位</string>
+    <string name="dialog_creating_title">聊天室正在创建中</string>
+    <string name="dialog_connecting_title">正在连接聊天室</string>
+
+    <!-- file_list -->
+    <string name="open_file">打开</string>
+    <string name="delete_file">删除</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

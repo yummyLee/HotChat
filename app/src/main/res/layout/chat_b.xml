@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <com.yummy.hotchat.Widget.CircleImageView
+        android:id="@+id/civ_bubble_user_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/header"
+        app:border_color="#E0E0E0"
+        app:border_width="2dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/civ_bubble_user_icon"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_bubble_user_time"
+                    android:text="2016-12-15 14:36"
+                    android:textSize="9dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp" />
+
+                <ImageView
+                    android:id="@+id/iv_bubble_user_sex"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_toLeftOf="@+id/ic_user"
+                    android:src="@drawable/man" />
+
+                <TextView
+                    android:id="@+id/tv_bubble_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="9dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toLeftOf="@+id/ic_user"
+                    android:text="傻巴度"
+                    android:textSize="9dp" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_bubble_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/bg_tvb"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="6dp"
+                android:text="11111111111111"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

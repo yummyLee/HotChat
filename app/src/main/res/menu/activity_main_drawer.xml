@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_wifi_list"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="聊天室列表" />
+        <item
+            android:id="@+id/nav_chat_room"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="聊天室" />
+        <item
+            android:id="@+id/nav_files"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="热点文件夹" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="设置" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="发送" />
+        </menu>
+    </item>
+
+</menu>

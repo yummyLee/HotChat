@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yummy.hotchat.Fragment.WifiList">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_wifi_list_tips"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="请确认Wifi已打开，并手动刷新~"
+            android:gravity="center"
+            android:textColor="@color/accent" />
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/srl_wifi_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_wifi_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|top"
+                android:scrollbars="vertical"
+                android:visibility="visible" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

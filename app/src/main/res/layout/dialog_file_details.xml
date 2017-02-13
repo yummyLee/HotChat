@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_file_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="名称:"
+            android:textColor="@color/accent"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_file_list_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="dafasgkjajgalksfjaskgnalkgnasljfksalfangal.txt"
+            android:textColor="@color/accent"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="大小:"
+            android:textColor="@color/accent"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_file_list_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="dafasgkjajgalksfjaskgnalkgnasljfksalfangal.txt"
+            android:textColor="@color/accent"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="路径:"
+            android:textColor="@color/accent"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_file_list_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="dafasgkjajgalksfjaskgnalkgnasljfksalfangal.txt"
+            android:textColor="@color/accent"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="时间:"
+            android:textColor="@color/accent"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_file_list_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="dafasgkjajgalksfjaskgnalkgnasljfksalfangal.txt"
+            android:textColor="@color/accent"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:id="@+id/btn_file_list_open_file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@android:color/transparent"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="打开文件"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/btn_file_list_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/btn_file_list_open_file"
+                android:background="@android:color/transparent"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="取消"
+                android:textColor="@color/colorPrimary" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

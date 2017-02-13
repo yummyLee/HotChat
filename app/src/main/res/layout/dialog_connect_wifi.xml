@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_connect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/tv_connect_ssid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/colorAccent"
+        android:text="@string/dialog_connect_ssid"
+        android:textSize="16dp">
+
+    </TextView>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_connect_input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dialog_connect_password_hint">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tie_connect_input_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16dp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+</LinearLayout>
